@@ -3,9 +3,6 @@ import "./index.css";
 function App() {
 return ( <div>
 
-https://github.com/EmilyO440/My-Portfolio.git
-git branch -M main
-git push -u origin main
 ```
   <nav className="nav">
     <h2>Emily.dev</h2>
