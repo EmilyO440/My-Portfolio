@@ -8,7 +8,11 @@ import glasgowNight from "./assets/glasgow-rainy-night.JPEG"
 import pinkAmsterdam from "./assets/pink-city-amsterdam.jpg"
 import cambridgeRiver from "./assets/cambridge-river.JPEG"
 import moersWalk from "./assets/moers-city-walk.jpg"
-import lifeThroughGlass from "./assets/lifethroughglass-moers-germany.png"
+import moonlight from "./assets/moonlight.JPEG"
+import farmperspective from "./assets/farm-perspective.JPEG"
+import canalsandboats from "./assets/canals-and-boats.JPEG"
+import dusseldorf from "./assets/dusseldorf-night.JPEG"
+import busylife from "./assets/busy-life.JPEG"
 
 function App() {
 return ( <div>
@@ -99,7 +103,11 @@ return ( <div>
       <img src={pinkAmsterdam} />
       <img src={cambridgeRiver} />
       <img src={moersWalk} />
-      <img src={lifeThroughGlass} />
+      <img src={moonlight} />
+      <img src={farmperspective} />
+      <img src={canalsandboats} />
+      <img src={dusseldorf} />
+      <img src={busylife} />
     </div>
   </section>
 
