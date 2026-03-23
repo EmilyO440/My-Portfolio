@@ -1,4 +1,15 @@
-import "./index.css";
+import "./index.css"
+
+import Amsterdamroof from "./assets/Amsterdam roof.jpg"
+import emshibiscus from "./assets/ems hibiscus.JPG"
+import motions from "./assets/motions.png"
+import redlightdistrict from "./assets/RED LIGHT DISCTRICT.png"
+import Glasgowrainynight from "./assets/Rain on a cheerful night. Glasgow, UK.JPG"
+import pinkcityamsterdam from "./assets/pink city, Amsterdam, NL.jpg"
+import Cambridgeriver from "./assets/Cambridge, UK.JPEG"
+import oldTownMoers from "./assets/moers city walk.jpg"
+import windowtogermany from "./assets/life through glass, Moers, Germany.png"
+
 
 function App() {
 return ( <div>
@@ -8,6 +19,7 @@ return ( <div>
     <h2>Emily.dev</h2>
     <div>
       <a href="#about">About</a>
+      <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#creative">Creative</a>
       <a href="#contact">Contact</a>
@@ -15,44 +27,68 @@ return ( <div>
   </nav>
 
   <section className="hero">
-    <h1>Hi, I'm Emily 👋</h1>
+    <img src={me} className="profile" />
+    <h1>Emily — Frontend Developer</h1>
     <p>
-      Frontend Developer passionate about building clean modern interfaces,
-      creative digital experiences, and meaningful user interactions.
+      I build modern, user-focused web applications with a strong attention
+      to design, usability, and clean code structure.
     </p>
   </section>
 
   <section id="about" className="section">
     <h2>About Me</h2>
     <p>
-      I'm a self-taught developer with a background in creative work including
-      photography, design, and visual storytelling. I enjoy turning ideas into
-      interactive web applications and continuously improving my skills in
-      JavaScript and React.
+      I am a frontend developer with a creative background in photography,
+      visual design, and digital content creation. My approach combines
+      technical problem-solving with thoughtful visual execution.
     </p>
+
     <p>
-      I value independence, curiosity, and problem-solving. Whether I am
-      traveling, learning new technologies, or building projects from scratch,
-      I am motivated by growth and creating meaningful experiences.
+      I enjoy learning new technologies, exploring new environments,
+      and continuously improving both my development workflow and design
+      intuition. I am comfortable working independently and collaborating
+      in team-based environments.
     </p>
   </section>
 
+  <section id="skills" className="section">
+    <h2>Technical Skills</h2>
+
+    <div className="grid">
+      <div className="card">HTML / CSS</div>
+      <div className="card">JavaScript</div>
+      <div className="card">React</div>
+      <div className="card">Responsive Design</div>
+      <div className="card">UI / UX Awareness</div>
+      <div className="card">Git / Version Control</div>
+    </div>
+  </section>
+
   <section id="projects" className="section">
-    <h2>Technical Projects</h2>
+    <h2>Projects</h2>
 
     <div className="card">
-      <h3>Task Manager App</h3>
-      <p>CRUD productivity tool using React state and local storage.</p>
+      <h3>Task Manager Application</h3>
+      <p>
+        A productivity-focused CRUD application built with React and local
+        storage for state persistence.
+      </p>
     </div>
 
     <div className="card">
-      <h3>Weather Dashboard</h3>
-      <p>API-driven interface displaying real-time weather data.</p>
+      <h3>Weather Interface</h3>
+      <p>
+        API-driven weather dashboard featuring responsive layout,
+        search functionality, and dynamic data rendering.
+      </p>
     </div>
 
     <div className="card">
-      <h3>Responsive UI Landing Page</h3>
-      <p>Modern layout using Flexbox, Grid, and clean UX principles.</p>
+      <h3>Personal Portfolio Website</h3>
+      <p>
+        Modern responsive site designed to showcase technical projects
+        alongside creative work and visual storytelling.
+      </p>
     </div>
 
   </section>
@@ -60,34 +96,51 @@ return ( <div>
   <section id="creative" className="section">
     <h2>Creative Work</h2>
 
-    <div className="card">
-      <h3>Photography</h3>
-      <p>
-        Experience capturing landscapes, architecture, and candid moments.
-        Skilled in composition, lighting awareness, and visual storytelling.
-      </p>
-    </div>
+    <p>
+      My creative experience in photography and visual composition
+      influences how I design layouts, structure content, and build
+      engaging user interfaces.
+    </p>
 
-    <div className="card">
-      <h3>Design & Visual Content</h3>
-      <p>
-        Comfortable using creative tools to design layouts, branding elements,
-        and digital visuals that enhance user experience.
-      </p>
-    </div>
+    <div className="gallery">
+      <section id="creative" className="section">
+  <h2>Photography</h2>
 
-  </section>
+  <p>
+    Photography has shaped how I think about layout, spacing, balance,
+    and storytelling. I enjoy capturing architecture, landscapes,
+    and candid moments that reflect mood and perspective.
+  </p>
+
+  <div className="gallery">
+
+```
+<img src={photo1} alt="Photography work" />
+<img src={photo2} alt="Photography work" />
+<img src={photo3} alt="Photography work" />
+<img src={photo4} alt="Photography work" />
+<img src={photo5} alt="Photography work" />
+<img src={photo6} alt="Photography work" />
+<img src={photo7} alt="Photography work" />
+<img src={photo8} alt="Photography work" />
+```
+
+  </div>
+</section>
+
+    </div>
+   </section>
 
   <section id="contact" className="section">
     <h2>Contact</h2>
-    <p>Email: emilyobrien64728@yahoo.com</p>
-    <p>GitHub: https://github.com/EmilyO440</p>
-    <p>Location: Open to remote opportunities and relocation</p>
+    <p>Email: your@email.com</p>
+    <p>GitHub: github.com/yourusername</p>
+    <p>Available for frontend or junior developer opportunities</p>
   </section>
 
 </div>
 
-);
+)
 }
 
-export default App;
+export default App
