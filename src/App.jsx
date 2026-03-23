@@ -113,7 +113,7 @@ return ( <div>
 
   <section id="contact" className="section">
     <h2>Contact</h2>
-    <p>Email: your@email.com</p>
+    <p>Email: emilyobrien64728@yahoo.com</p>
     <p>GitHub: github.com/EmilyO440</p>
     <p>Location: Open to onsite, hybrid, or remote opportunities</p>
   </section>
