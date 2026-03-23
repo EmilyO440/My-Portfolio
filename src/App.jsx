@@ -1,14 +1,14 @@
 import "./index.css"
 
-import hibiscus from "./assets/hibiscus.jpg"
-import amsterdamRoof from "./assets/amsterdam-roof.jpg"
-import motions from "./assets/motions.png"
-import redLightDistrict from "./assets/red-light-district.png"
-import glasgowNight from "./assets/glasgow-rainy-night.jpg"
-import pinkAmsterdam from "./assets/pink-city-amsterdam.jpg"
-import cambridgeRiver from "./assets/cambridge-river.jpeg"
-import moersWalk from "./assets/moers-city-walk.jpg"
-import lifeThroughGlass from "./assets/lifethroughglass-moers-germany.png"
+import hibiscus from "./assets/hibiscus"
+import amsterdamRoof from "./assets/amsterdam-roof"
+import motions from "./assets/motions"
+import redLightDistrict from "./assets/red-light-district"
+import glasgowNight from "./assets/glasgow-rainy-night"
+import pinkAmsterdam from "./assets/pink-city-amsterdam"
+import cambridgeRiver from "./assets/cambridge-river"
+import moersWalk from "./assets/moers-city-walk"
+import lifeThroughGlass from "./assets/lifethroughglass-moers-germany"
 
 function App() {
 return ( <div>
