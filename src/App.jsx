@@ -19,7 +19,7 @@ return ( <div>
 
 ```
   <nav className="nav">
-    <h2>Emily.OBrien</h2>
+    <h2>Emily OBrien</h2>
     <div className="nav-links">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
