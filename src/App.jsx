@@ -73,13 +73,13 @@ function App() {
           </p>
 
           <div className="project-links">
-            <a href="https://my-taskflow-manager-app.netlify.app/" target="_blank" rel="noopener noreferrer">
-              Live
-            </a>
-            <a href="https://github.com/EmilyO440" target="_blank" rel="noopener noreferrer">
-              Code
-            </a>
-          </div>
+  <a href="https://my-taskflow-manager-app.netlify.app/" target="_blank" rel="noopener noreferrer">
+    Live
+  </a>
+  <a href="https://github.com/YOUR-USERNAME/taskflow" target="_blank" rel="noopener noreferrer">
+    Code
+  </a>
+</div>
         </div>
 
       </section>
