@@ -15,191 +15,180 @@ import dusseldorf from "./assets/dusseldorf-night.JPEG"
 import busylife from "./assets/busy-life.JPEG"
 
 function App() {
-return ( <div>
+  return (
+    <div>
 
-```
-  <nav className="nav">
-    <h2>Emily OBrien</h2>
-    <div className="nav-links">
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
-      <a href="#creative">Photography</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </nav>
+      {/* NAV */}
+      <nav className="nav">
+        <h2 className="logo">Emily O’Brien</h2>
+        <div className="nav-links">
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#creative">Photography</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
 
-  <section className="hero">
-    <img src={hibiscus} className="hero-img" />
-    <div className="hero-text">
-      <h1>Emily — Frontend Developer</h1>
-      <p>
-        Frontend developer focused on building clean, modern and responsive
-        web interfaces with strong visual awareness and attention to detail.
-      </p>
-    </div>
-  </section>
+      {/* HERO */}
+      <section className="hero">
+        <img src={hibiscus} className="hero-img" />
 
-  <section id="about" className="section">
-    <h2>About Me</h2>
+        <div className="hero-text">
+          <h1 className="main-name">Emily O’Brien</h1>
+          <p className="role">Frontend Developer</p>
 
-    <p>
-      I am a frontend developer with a creative background in photography,
-      digital design, and client-focused administrative work. I enjoy
-      building user-friendly web interfaces that balance functionality with
-      visual clarity.
-    </p>
+          <p>
+            I build clean, modern interfaces with a strong focus on layout,
+            usability, and visual clarity. I care about how things actually
+            feel to use, not just how they look.
+          </p>
 
-    <p>
-      My professional experience includes working in fast-paced environments
-      where organization, communication, and problem-solving were essential.
-      These roles helped me develop strong attention to detail, adaptability,
-      and the ability to work both independently and within teams.
-    </p>
+          <p>
+            My background in customer-facing roles and creative work gives me a
+            different perspective when it comes to building user experiences.
+            I pay attention to details that affect how people interact with a
+            product, not just how it functions.
+          </p>
+        </div>
+      </section>
 
-    <p>
-      I am currently focused on strengthening my technical skills through
-      real-world development projects using JavaScript and React while
-      continuing to expand my understanding of modern web technologies.
-    </p>
+      {/* PROJECTS */}
+      <section id="projects" className="section">
+        <h2>Projects</h2>
 
-    <p>
-      Outside of development, I am passionate about travel, language
-      learning, and visual storytelling. These interests influence how I
-      approach layout design, user experience, and creative problem solving.
-    </p>
-  </section>
+        <div className="card">
+          <h3>Personal Portfolio</h3>
+          <p>
+            Built with React and custom CSS. Focused on layout, responsiveness,
+            and creating a clean structure that showcases both technical and
+            creative work.
+          </p>
+          <a href="#">View Project</a>
+        </div>
 
-  <section id="skills" className="section">
-    <h2>Technical Skills</h2>
+        <div className="card">
+          <h3>UI Layout Practice</h3>
+          <p>
+            A collection of smaller builds focused on improving layout,
+            spacing, and visual hierarchy across different screen sizes.
+          </p>
+          <a href="#">View Project</a>
+        </div>
+      </section>
 
-    <div className="grid">
-      <div className="card">
-        <h3>Frontend Development</h3>
-        <p>HTML, CSS, JavaScript, React</p>
-      </div>
+      {/* ABOUT */}
+      <section id="about" className="section">
+        <h2>About Me</h2>
 
-      <div className="card">
-        <h3>Design & UX Awareness</h3>
-        <p>Responsive Layouts, Visual Hierarchy, Layout Composition</p>
-      </div>
+        <p>
+          I’m a frontend developer with a background in photography, design,
+          and customer-facing roles. I’ve always been drawn to how things look,
+          feel, and function together.
+        </p>
 
-      <div className="card">
-        <h3>Tools & Workflow</h3>
-        <p>Git, GitHub, VS Code, Chrome DevTools</p>
-      </div>
+        <p>
+          I’ve worked in fast-paced environments where communication,
+          organization, and problem solving were important every day. That
+          experience carries into how I approach development.
+        </p>
 
-      <div className="card">
-        <h3>Development Concepts</h3>
-        <p>Component Structure, State Basics, API Integration</p>
-      </div>
+        <p>
+          I’m currently focused on building real projects, improving my React
+          skills, and becoming more confident in creating full user interfaces
+          from start to finish.
+        </p>
+      </section>
 
-      <div className="card">
-        <h3>Professional Strengths</h3>
-        <p>Problem Solving, Communication, Organization, Adaptability</p>
-      </div>
-    </div>
-  </section>
+      <section id="skills" className="section">
+  <h2>Skills</h2>
 
-  <section id="experience" className="section">
-    <h2>Professional Experience</h2>
+  <div className="skills-grid">
 
-    <div className="card">
-      <h3>Administrative & Operations Support</h3>
-      <p>
-        Managed documentation systems, coordinated scheduling, and supported
-        internal workflows. Maintained accuracy in time-sensitive tasks and
-        contributed to overall organizational efficiency.
-      </p>
+    <div className="skill-box">
+      <h3>Frontend</h3>
+      <p>HTML, CSS, JavaScript, React</p>
     </div>
 
-    <div className="card">
-      <h3>Customer Service Roles</h3>
-      <p>
-        Assisted customers, handled inquiries, and resolved issues in
-        fast-paced environments. Developed strong interpersonal skills and
-        the ability to remain solution-focused under pressure.
-      </p>
+    <div className="skill-box">
+      <h3>Design & UI</h3>
+      <p>Responsive Design, Layout, Spacing, Visual Hierarchy</p>
     </div>
 
-    <div className="card">
-      <h3>Creative & Digital Projects</h3>
-      <p>
-        Produced photography and visual content while exploring layout
-        design and digital presentation. Built an understanding of visual
-        storytelling and user engagement.
-      </p>
+    <div className="skill-box">
+      <h3>Tools</h3>
+      <p>Git, GitHub, VS Code, Chrome DevTools</p>
     </div>
 
-    <div className="card">
-      <h3>Independent Web Development</h3>
-      <p>
-        Designed and developed personal frontend projects including
-        productivity tools, responsive layouts, and API-driven interfaces
-        using modern JavaScript and React.
-      </p>
-    </div>
-  </section>
-
-  <section id="education" className="section">
-    <h2>Education & Technical Training</h2>
-
-    <div className="card">
-      <h3>Frontend Development Coursework</h3>
-      <p>
-        Completed structured learning covering HTML, CSS, JavaScript
-        fundamentals, React basics, and version control using Git.
-      </p>
+    <div className="skill-box">
+      <h3>Workflow</h3>
+      <p>Debugging, Component Structure, API Basics</p>
     </div>
 
-    <div className="card">
-      <h3>Ongoing Skill Development</h3>
-      <p>
-        Continuously building projects to strengthen debugging ability,
-        improve UI implementation, and gain experience with real development
-        workflows.
-      </p>
+    <div className="skill-box">
+      <h3>Strengths</h3>
+      <p>Communication, Organization, Problem Solving</p>
     </div>
 
-    <div className="card">
-      <h3>Additional Interests</h3>
-      <p>
-        Language learning, international travel, and creative digital work
-        which contribute to adaptability and a global perspective.
-      </p>
+    <div className="skill-box">
+      <h3>Creative</h3>
+      <p>Photography, Visual Thinking, Content Awareness</p>
     </div>
-  </section>
 
-  <section id="creative" className="section">
-    <h2>Photography</h2>
+  </div>
+      </section>
 
-    <div className="gallery">
-      <img src={amsterdamRoof} />
-      <img src={motions} />
-      <img src={redLightDistrict} />
-      <img src={glasgowNight} />
-      <img src={pinkAmsterdam} />
-      <img src={cambridgeRiver} />
-      <img src={moersWalk} />
-      <img src={moonlight} />
-      <img src={farmperspective} />
-      <img src={canalsandboats} />
-      <img src={dusseldorf} />
-      <img src={busylife} />
+      <section id="experience" className="section">
+        <h2>Experience</h2>
+
+        <div className="card">
+          <h3>Customer Service & Operations</h3>
+          <p>
+            Worked in fast-paced environments handling customers, solving
+            issues, and managing responsibilities under pressure. Developed
+            strong communication and problem-solving skills.
+          </p>
+        </div>
+
+        <div className="card">
+          <h3>Independent Web Development</h3>
+          <p>
+            Built personal projects using modern JavaScript and React,
+            focusing on responsive layouts, usability, and improving
+            development workflow.
+          </p>
+        </div>
+      </section>
+
+      <section id="creative" className="section">
+        <h2>Photography</h2>
+
+        <div className="gallery">
+          <img src={amsterdamRoof} />
+          <img src={motions} />
+          <img src={redLightDistrict} />
+          <img src={glasgowNight} />
+          <img src={pinkAmsterdam} />
+          <img src={cambridgeRiver} />
+          <img src={moersWalk} />
+          <img src={moonlight} />
+          <img src={farmperspective} />
+          <img src={canalsandboats} />
+          <img src={dusseldorf} />
+          <img src={busylife} />
+        </div>
+      </section>
+
+      <section id="contact" className="section">
+        <h2>Contact</h2>
+        <p>Email: emilyobrien64728@yahoo.com</p>
+        <p>GitHub: github.com/EmilyO440</p>
+        <p>Open to remote, hybrid, and international opportunities</p>
+      </section>
+
     </div>
-  </section>
-
-  <section id="contact" className="section">
-    <h2>Contact</h2>
-    <p>Email: emilyobrien64728@yahoo.com</p>
-    <p>GitHub: github.com/EmilyO440</p>
-    <p>Open to onsite, hybrid, remote, and international opportunities</p>
-  </section>
-
-</div>
-
-)
+  )
 }
 
 export default App
