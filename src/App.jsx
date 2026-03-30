@@ -64,11 +64,12 @@ function App() {
           <a href="#">View Project</a>
         </div>
 
-        <div className="project-card">
+        {/* ✅ FIXED: using SAME card class */}
+        <div className="card">
           <h3>TaskFlow</h3>
           <p>
-            A task management app for organizing tasks, setting priorities,
-            and tracking progress.
+            A responsive task management app featuring priority levels,
+            deadlines, and real-time progress tracking.
           </p>
 
           <div className="project-links">
