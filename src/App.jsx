@@ -68,15 +68,22 @@ function App() {
           <a href="#">View Project</a>
         </div>
 
-        <div className="card">
-          <h3>UI Layout Practice</h3>
-          <p>
-            A collection of smaller builds focused on improving layout,
-            spacing, and visual hierarchy across different screen sizes.
-          </p>
-          <a href="#">View Project</a>
-        </div>
-      </section>
+        <div className="project-card">
+  <h3>TaskFlow</h3>
+  <p>
+    A task management app for organizing tasks, setting priorities,
+    and tracking progress.
+  </p>
+
+  <div className="project-links">
+    <a href="https://my-taskflow-manager-app.netlify.app/" target="_blank">
+      Live
+    </a>
+    <a href="https://github.com/EmilyO440" target="_blank">
+      Code
+    </a>
+  </div>
+</div>
 
       {/* ABOUT */}
       <section id="about" className="section">
