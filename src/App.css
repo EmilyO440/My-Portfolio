@@ -61,6 +61,7 @@ body::before {
 
 .hero-text {
   margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero-text h1 {

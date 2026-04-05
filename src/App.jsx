@@ -19,7 +19,7 @@ function App() {
     <div>
 
       <nav className="nav">
-        <h2 className="logo">Emily O’Brien</h2>
+        <h2 className="logo">My Portfolio</h2>
         <div className="nav-links">
           <a href="#projects">Projects</a>
           <a href="#about">About</a>
@@ -134,59 +134,84 @@ function App() {
 
 
       <section id="skills" className="section">
-        <h2>Skills</h2>
+  <h2>Skills</h2>
 
-        <div className="skills-grid">
-          <div className="skill-box">
-            <h3>Frontend</h3>
-            <p>HTML, CSS, JavaScript, React</p>
-          </div>
+  <div className="skills-grid">
+    <div className="skill-box">
+      <h3>Frontend</h3>
+      <p>HTML, CSS, JavaScript, React</p>
+    </div>
 
-          <div className="skill-box">
-            <h3>Design & UI</h3>
-            <p>Responsive Design, Layout, Visual Hierarchy</p>
-          </div>
+    <div className="skill-box">
+      <h3>Design & UI</h3>
+      <p>Responsive Design, Layout, Visual Hierarchy, Application UI Design</p>
+    </div>
 
-          <div className="skill-box">
-            <h3>Tools</h3>
-            <p>Git, GitHub, VS Code</p>
-          </div>
+    <div className="skill-box">
+      <h3>Tools</h3>
+      <p>Git, GitHub, VS Code, Adobe, Slack</p>
+    </div>
 
-          <div className="skill-box">
-            <h3>Workflow</h3>
-            <p>Debugging, Component Structure</p>
-          </div>
+    <div className="skill-box">
+      <h3>Workflow</h3>
+      <p>Debugging, Component Structure, Building App Interfaces</p>
+    </div>
 
-          <div className="skill-box">
-            <h3>Strengths</h3>
-            <p>Communication, Organization, Problem Solving</p>
-          </div>
+    <div className="skill-box">
+      <h3>Strengths</h3>
+      <p>Communication, Organization, Problem Solving</p>
+    </div>
 
-          <div className="skill-box">
-            <h3>Creative</h3>
-            <p>Photography, Visual Thinking</p>
-          </div>
-        </div>
-      </section>
+    <div className="skill-box">
+      <h3>Creative</h3>
+      <p>Photography, Visual Thinking, UI/UX Design, Storytelling</p>
+    </div>
+  </div>
+</section>
 
   
       <section id="experience" className="section">
-        <h2>Experience</h2>
+  <h2>Experience</h2>
 
-        <div className="card">
-          <h3>Customer Service & Operations</h3>
-          <p>
-            Worked in fast-paced environments handling customers and solving problems.
-          </p>
-        </div>
+  <div className="card">
+    <h3>Customer Experience & Operations</h3>
+    <p>
+      Worked in fast-paced, customer-facing environments requiring strong communication,
+      adaptability, and problem solving. Regularly handled real-time issues, managed
+      multiple priorities, and maintained a high level of organization under pressure.
+    </p>
+    <p>
+      This experience shaped my approach to development — focusing on clarity, usability,
+      and building solutions that make sense in real-world situations.
+    </p>
+  </div>
 
-        <div className="card">
-          <h3>Independent Web Development</h3>
-          <p>
-            Built personal projects using React with a focus on usability and layout.
-          </p>
-        </div>
-      </section>
+  <div className="card">
+    <h3>Web Development & UI Design</h3>
+    <p>
+      Designed and built responsive web applications using React, HTML, CSS, and JavaScript,
+      with a focus on layout, structure, and user experience.
+    </p>
+    <p>
+      Projects include a task management application with dynamic features and a narrative-driven
+      storytelling site that integrates visual design with front-end development.
+    </p>
+  </div>
+
+  <div className="card">
+    <h3>Creative Work & Visual Storytelling</h3>
+    <p>
+      Background in photography and writing, with a strong focus on observation, composition,
+      and capturing subtle details. This perspective directly influences my approach to design
+      and user interfaces.
+    </p>
+    <p>
+      Experienced in creating content that balances visual elements with narrative flow,
+      translating abstract ideas into structured, engaging digital experiences.
+    </p>
+  </div>
+
+</section>
 
     
       <section id="creative" className="section">
