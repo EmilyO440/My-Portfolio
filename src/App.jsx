@@ -50,36 +50,62 @@ function App() {
       </section>
 
       <section id="projects" className="section">
-        <h2>Projects</h2>
+  <h2>Projects</h2>
 
-        <div className="card">
-          <h3>Personal Portfolio</h3>
-          <p>
-            Built with React and custom CSS. Focused on layout,
-            responsiveness, and clean structure.
-          </p>
-          <a href="#">View Project</a>
-        </div>
+  <div className="card">
+    <h3>Personal Portfolio</h3>
+    <p>
+      Built with React and custom CSS. Focused on layout,
+      responsiveness, and clean structure.
+    </p>
+
+    <div className="project-links">
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        Live
+      </a>
+      <a href="https://github.com/EmilyO440" target="_blank" rel="noopener noreferrer">
+        Code
+      </a>
+    </div>
+  </div>
 
 
-        <div className="card">
-          <h3>TaskFlow</h3>
-          <p>
-            A responsive task management app featuring priority levels,
-            deadlines, and real-time progress tracking.
-          </p>
+  <div className="card">
+    <h3>TaskFlow</h3>
+    <p>
+      A responsive task management app featuring priority levels,
+      deadlines, and real-time progress tracking.
+    </p>
 
-          <div className="project-links">
-  <a href="https://my-taskflow-manager-app.netlify.app/" target="_blank" rel="noopener noreferrer">
-    Live
-  </a>
-  <a href="https://github.com/YOUR-USERNAME/taskflow" target="_blank" rel="noopener noreferrer">
-    Code
-  </a>
-</div>
-        </div>
+    <div className="project-links">
+      <a href="https://my-taskflow-manager-app.netlify.app/" target="_blank" rel="noopener noreferrer">
+        Live
+      </a>
+      <a href="https://github.com/EmilyO440" target="_blank" rel="noopener noreferrer">
+        Code
+      </a>
+    </div>
+  </div>
 
-      </section>
+
+  <div className="card">
+    <h3>Quiet Observations</h3>
+    <p>
+      An immersive, narrative-driven web experience that blends creative writing
+      with visual storytelling, focusing on perception, stillness, and atmosphere.
+    </p>
+
+    <div className="project-links">
+      <a href="https://quiet-observations.netlify.app/" target="_blank" rel="noopener noreferrer">
+        Live
+      </a>
+      <a href="https://github.com/EmilyO440/Quiet-Observations" target="_blank" rel="noopener noreferrer">
+        Code
+      </a>
+    </div>
+  </div>
+
+</section>
 
   
       <section id="about" className="section">
