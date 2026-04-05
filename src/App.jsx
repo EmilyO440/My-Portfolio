@@ -18,7 +18,6 @@ function App() {
   return (
     <div>
 
-      {/* NAV */}
       <nav className="nav">
         <h2 className="logo">Emily O’Brien</h2>
         <div className="nav-links">
@@ -31,13 +30,12 @@ function App() {
         </div>
       </nav>
 
-      {/* HERO */}
       <section className="hero">
         <img src={hibiscus} className="hero-img" />
 
         <div className="hero-text">
           <h1 className="main-name">Emily O’Brien</h1>
-          <p className="role">Frontend Developer</p>
+          <p className="role">Software Engineer & Web Designer | Frontend   Developer</p>
 
           <p>
             I build clean, modern interfaces with a strong focus on layout,
@@ -51,7 +49,6 @@ function App() {
         </div>
       </section>
 
-      {/* PROJECTS */}
       <section id="projects" className="section">
         <h2>Projects</h2>
 
@@ -64,7 +61,7 @@ function App() {
           <a href="#">View Project</a>
         </div>
 
-        {/* ✅ FIXED: using SAME card class */}
+
         <div className="card">
           <h3>TaskFlow</h3>
           <p>
@@ -84,27 +81,32 @@ function App() {
 
       </section>
 
-      {/* ABOUT */}
+  
       <section id="about" className="section">
-        <h2>About Me</h2>
+  <h2>About Me</h2>
 
-        <p>
-          I’m a frontend developer with a background in photography, design,
-          and customer-facing roles.
-        </p>
+  <p>
+    I’m a software engineer and web designer with a strong focus on front-end development, user experience, and visually intentional interfaces.
+  </p>
 
-        <p>
-          I’ve worked in fast-paced environments where communication,
-          organization, and problem solving were essential.
-        </p>
+  <p>
+    My background combines technical work with creative disciplines like photography and design, which shapes how I approach building. I don’t just focus on functionality — I pay attention to how something feels, how it flows, and how users naturally move through it.
+  </p>
 
-        <p>
-          I’m focused on building real projects and becoming more confident
-          creating full user interfaces.
-        </p>
-      </section>
+  <p>
+    I’ve worked in fast-paced, customer-facing environments where communication, adaptability, and problem solving were essential. That experience carries into my development work, where I prioritize clarity, usability, and real-world practicality.
+  </p>
 
-      {/* SKILLS */}
+  <p>
+    I’m currently focused on building projects that reflect both technical ability and perspective — from structured applications to more immersive, narrative-driven experiences.
+  </p>
+
+  <p>
+    I’m especially interested in opportunities where development, design, and user experience overlap, and where I can continue growing as both a developer and a creative.
+  </p>
+</section>
+
+
       <section id="skills" className="section">
         <h2>Skills</h2>
 
@@ -141,7 +143,7 @@ function App() {
         </div>
       </section>
 
-      {/* EXPERIENCE */}
+  
       <section id="experience" className="section">
         <h2>Experience</h2>
 
@@ -160,7 +162,7 @@ function App() {
         </div>
       </section>
 
-      {/* PHOTOGRAPHY */}
+    
       <section id="creative" className="section">
         <h2>Photography</h2>
 
@@ -180,7 +182,6 @@ function App() {
         </div>
       </section>
 
-      {/* CONTACT */}
       <section id="contact" className="section">
         <h2>Contact</h2>
         <p>Email: emilyobrien64728@yahoo.com</p>
