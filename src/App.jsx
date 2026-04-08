@@ -131,7 +131,7 @@ function App() {
         <p>
           My background combines technical work with creative disciplines like photography
           and design, which shapes how I approach building. I don't just focus on
-          functionality — I pay attention to how something feels, how it flows, and how
+          functionality - I pay attention to how something feels, how it flows, and how
           users naturally move through it.
         </p>
 
@@ -143,7 +143,7 @@ function App() {
 
         <p>
           I'm currently focused on building projects that reflect both technical ability
-          and perspective — from structured applications to more immersive, narrative-driven experiences.
+          and perspective - from structured applications to more immersive, narrative-driven experiences.
         </p>
 
         <p>
