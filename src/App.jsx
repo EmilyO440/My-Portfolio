@@ -266,7 +266,7 @@ function App() {
         <p>Email: emilyobrien64728@yahoo.com</p>
         <p>GitHub: <a href="https://github.com/EmilyO440" target="_blank" rel="noopener noreferrer">github.com/EmilyO440</a></p>
         <p>Portfolio: <a href="https://emily-obrien-dev-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer">emily-obrien-dev-portfolio.netlify.app</a></p>
-        <p>Open to remote, hybrid, and international opportunities</p>
+        <p>Open to remote contract, and international opportunities</p>
       </section>
 
     </div>
