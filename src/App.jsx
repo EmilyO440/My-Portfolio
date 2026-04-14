@@ -35,7 +35,7 @@ function App() {
 
         <div className="hero-text">
           <h1 className="main-name">Emily O'Brien</h1>
-          <p className="role">Remote Operations & Administrative Professional</p>
+          <p className="role">Remote Operations & Administrative  Professional</p>
 
           <p>
             I provide high-level administrative and operational support to busy
