@@ -22,6 +22,7 @@ function App() {
         <h2 className="logo">My Portfolio</h2>
         <div className="nav-links">
           <a href="#projects">Projects</a>
+          <a href="#casestudy">Research</a>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#experience">Experience</a>
@@ -35,17 +36,8 @@ function App() {
         <div className="hero-text">
           <h1 className="main-name">Emily O'Brien</h1>
           <p className="role">Genealogical Researcher · Remote Operations Professional · Web Developer</p>
-          <p>
-            I specialize in genealogical and historical research, with 5+ years
-            of experience tracing family histories across U.S. records, DNA analysis,
-            and archival sources. I help individuals and families uncover their stories
-            through methodical, well-documented research.
-          </p>
-          <p>
-            My background also spans legal operations, client management, workflow
-            coordination, and frontend web development — making me equally at home
-            in research-driven and operations-focused roles.
-          </p>
+          <p>I specialize in genealogical and historical research, with 5+ years of experience tracing family histories across U.S. and international records, DNA analysis, and archival sources — including Polish State Archives, German civil records, and Eastern European parish registers.</p>
+          <p>My background also spans legal operations, client management, workflow coordination, and frontend web development. Based in Düsseldorf, Germany.</p>
         </div>
       </section>
 
@@ -85,31 +77,49 @@ function App() {
         </div>
       </section>
 
+      <section id="casestudy" className="section">
+        <h2>Research Case Study</h2>
+        <div className="card casestudy-card">
+          <div className="casestudy-header">
+            <h3>Polish Citizenship by Descent — Six-Generation Family Line</h3>
+            <span className="casestudy-tag">Active Legal Case · 2026</span>
+          </div>
+          <p className="casestudy-summary">
+            Traced a complete six-generation Polish family line from a 23andMe result to original 19th-century birth records in the Polish State Archives — in under 48 hours — supporting an active citizenship by descent legal case alongside a Poland-based attorney and professional genealogist.
+          </p>
+          <div className="casestudy-grid">
+            <div className="casestudy-item">
+              <h4>The Challenge</h4>
+              <p>Establish an unbroken line of Polish citizenship from a great great-grandmother born in 1886 through five subsequent generations, with no prior documentation and no knowledge of exact birthplace or family details.</p>
+            </div>
+            <div className="casestudy-item">
+              <h4>The Research</h4>
+              <p>Cross-referenced US Federal Census records (1920, 1930, 1940), WWI Draft Registration, WWII Alien Registration, Social Security applications, Find a Grave, Connecticut vital records, and Polish archives including Geneteka, Szukajwarchiwach, Geni, and MyHeritage.</p>
+            </div>
+            <div className="casestudy-item">
+              <h4>Key Findings</h4>
+              <p>Located the ancestor's original birth record in the Polish State Archives (Brudzew parish, Wielkopolska). Confirmed both Polish-born ancestors maintained alien status across five independent US government records spanning 40+ years. Identified the family grave in Zduńska Wola, Poland.</p>
+            </div>
+            <div className="casestudy-item">
+              <h4>Archives Used</h4>
+              <p>US Federal Census (NARA) · WWII Alien Registration · Connecticut Naturalization Records · Szukajwarchiwach · Geneteka · MyHeritage · Geni · Grobonet · FamilySearch · Ancestry.com</p>
+            </div>
+          </div>
+          <div className="casestudy-outcome">
+            <span>✓</span> Original birth record located in Polish State Archives
+            <span>✓</span> Parents' marriage record confirmed
+            <span>✓</span> Family grave in Poland identified
+            <span>✓</span> Active legal case submitted to Polish citizenship attorney
+          </div>
+        </div>
+      </section>
+
       <section id="about" className="section">
         <h2>About Me</h2>
-        <p>
-          I'm a genealogical researcher and remote operations professional with 5+ years
-          of experience tracing family histories across U.S. records — with a focus on
-          Mid-South and Southern states. I work with census records, vital records,
-          land and probate records, military records, and DNA analysis to help people
-          break through brick walls and connect with their past.
-        </p>
-        <p>
-          I've conducted research for myself, family members, friends, and independent
-          clients — producing well-documented research logs, source citations, and
-          narrative reports aligned with genealogical proof standards. I'm proficient
-          in Ancestry.com, FamilySearch, Fold3, newspapers.com, and a wide range of
-          archival and digital record sources.
-        </p>
-        <p>
-          Alongside my research background, I have experience in legal operations,
-          client management, and workflow coordination. I also build web applications
-          independently including TaskFlow and World Social.
-        </p>
-        <p>
-          I work best remotely, independently, and in environments where attention to
-          detail and reliable follow-through matter most.
-        </p>
+        <p>I'm a genealogical researcher and remote operations professional with 5+ years of experience tracing family histories across U.S. and international records. I specialize in Polish-American immigration research, Eastern European civil and church archives, and citizenship by descent cases.</p>
+        <p>I've conducted research for myself, family members, friends, and independent clients — producing well-documented research logs, source citations, and narrative reports. Proficient in Ancestry.com, FamilySearch, Geneteka, Szukajwarchiwach, MyHeritage, Geni, Fold3, and a wide range of US and European archival sources.</p>
+        <p>Alongside my research background, I have experience in legal operations, client management, and workflow coordination. I also build web applications independently. Based in Düsseldorf, Germany with access to Landesarchiv NRW and proximity to Polish state archives.</p>
+        <p>I work best remotely, independently, and in environments where attention to detail and reliable follow-through matter most.</p>
       </section>
 
       <section id="skills" className="section">
@@ -117,7 +127,11 @@ function App() {
         <div className="skills-grid">
           <div className="skill-box">
             <h3>Genealogical Research</h3>
-            <p>Ancestry.com, FamilySearch, Fold3, newspapers.com, Census & Vital Records, Land & Probate Records, Military Records</p>
+            <p>Ancestry.com, FamilySearch, Geneteka, Szukajwarchiwach, MyHeritage, Geni, Fold3, newspapers.com, Census & Vital Records, Military Records</p>
+          </div>
+          <div className="skill-box">
+            <h3>European & Polish Archives</h3>
+            <p>Polish State Archives, Brudzew & Dynów parish records, Grobonet cemetery database, German civil records, Landesarchiv NRW, Austrian Galician records</p>
           </div>
           <div className="skill-box">
             <h3>DNA Analysis</h3>
@@ -125,15 +139,11 @@ function App() {
           </div>
           <div className="skill-box">
             <h3>Research Documentation</h3>
-            <p>Research Logs, Source Citations, Abstracts, Narrative Reports, Genealogical Proof Standards (GPS), Research Plans</p>
+            <p>Research Logs, Source Citations, Abstracts, Narrative Reports, Genealogical Proof Standards (GPS), Citizenship Case Documentation</p>
           </div>
           <div className="skill-box">
             <h3>Administrative</h3>
-            <p>Calendar Management, Email Management, Scheduling, Client Communication, Expectation Setting</p>
-          </div>
-          <div className="skill-box">
-            <h3>Operations</h3>
-            <p>CRM Platforms, Document Management, Workflow Coordination, Compliance, Project Management</p>
+            <p>Calendar Management, Email Management, Scheduling, Client Communication, CRM Platforms, Document Management</p>
           </div>
           <div className="skill-box">
             <h3>Technology</h3>
@@ -144,8 +154,8 @@ function App() {
             <p>Client Relations, Written Communication, Discretion, Task Prioritization, Conflict Resolution</p>
           </div>
           <div className="skill-box">
-            <h3>Creative</h3>
-            <p>Photography, Visual Thinking, Storytelling, Design Awareness</p>
+            <h3>Languages</h3>
+            <p>English (native) · German (A2, actively improving) · Polish record terminology (genealogical research)</p>
           </div>
         </div>
       </section>
@@ -155,19 +165,7 @@ function App() {
         <div className="card">
           <h3>Independent Genealogical Researcher</h3>
           <p>2019 – Present</p>
-          <p>
-            Conducted in-depth genealogical research for personal clients, family members,
-            and independent projects with a focus on U.S. Mid-South and Southern states.
-            Utilized Ancestry.com, FamilySearch, census records, vital records, military
-            records, and DNA analysis to trace family lines and resolve complex research
-            problems. Produced detailed research logs, source citations, and narrative
-            reports for each project.
-          </p>
-        </div>
-        <div className="card">
-          <h3>AI Rater & Data Annotator — TELUS Digital</h3>
-          <p>2026 – Present</p>
-          <p>Assessing digital content and search results for quality, relevance, and user value. Contributing to AI model training through clear content evaluations and structured justifications.</p>
+          <p>Conducted in-depth genealogical research for private clients, family members, and independent projects across US and international records. Specializations include Polish-American immigration research, naturalization and citizenship by descent cases, and Eastern European civil and church archives. Most recently documented a complete six-generation Polish family line for an active citizenship by descent legal case — locating original birth records in the Polish State Archives and collaborating with a Poland-based attorney and professional genealogist.</p>
         </div>
         <div className="card">
           <h3>Client Services & Systems Coordinator — State Farm</h3>
@@ -180,7 +178,7 @@ function App() {
           <p>Provided dedicated administrative support to a practicing attorney — managing scheduling, case preparation, and research. Maintained 100+ active legal files with strict confidentiality standards.</p>
         </div>
         <div className="card">
-          <h3>Web Development & Task Management Tools</h3>
+          <h3>Web Development</h3>
           <p>Built TaskFlow, World Social, and other web applications independently using React, Vite, and JavaScript.</p>
         </div>
         <div className="card">
