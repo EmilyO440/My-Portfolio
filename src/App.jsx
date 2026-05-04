@@ -32,152 +32,117 @@ function App() {
 
       <section className="hero">
         <img src={hibiscus} className="hero-img" />
-
         <div className="hero-text">
           <h1 className="main-name">Emily O'Brien</h1>
-          <p className="role">Remote Operations & Administrative  Professional</p>
-
+          <p className="role">Genealogical Researcher · Remote Operations Professional · Web Developer</p>
           <p>
-            I provide high-level administrative and operational support to busy
-            professionals remotely. Organized, proactive, and built for remote work.
+            I specialize in genealogical and historical research, with 5+ years
+            of experience tracing family histories across U.S. records, DNA analysis,
+            and archival sources. I help individuals and families uncover their stories
+            through methodical, well-documented research.
           </p>
-
           <p>
-            My background spans legal operations, client management, and workflow
-            coordination across fast-paced environments.
+            My background also spans legal operations, client management, workflow
+            coordination, and frontend web development — making me equally at home
+            in research-driven and operations-focused roles.
           </p>
         </div>
       </section>
 
       <section id="projects" className="section">
         <h2>Projects</h2>
-
         <div className="card">
           <h3>TaskFlow</h3>
-          <p>
-            A responsive task management app featuring priority levels,
-            deadlines, and real-time progress tracking — built to help people
-            organize, prioritize, and stay on top of what matters.
-          </p>
+          <p>A responsive task management app featuring priority levels, deadlines, and real-time progress tracking.</p>
           <div className="project-links">
-            <a href="https://my-taskflow-manager-app.netlify.app/" target="_blank" rel="noopener noreferrer">
-              Live
-            </a>
-            <a href="https://github.com/EmilyO440/TaskFlow-App" target="_blank" rel="noopener noreferrer">
-              Code
-            </a>
+            <a href="https://my-taskflow-manager-app.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a>
+            <a href="https://github.com/EmilyO440/TaskFlow-App" target="_blank" rel="noopener noreferrer">Code</a>
           </div>
         </div>
-
         <div className="card">
           <h3>Personal Portfolio</h3>
-          <p>
-            Built with React and custom CSS. Focused on layout,
-            responsiveness, and clean structure.
-          </p>
+          <p>Built with React and custom CSS. Focused on layout, responsiveness, and clean structure.</p>
           <div className="project-links">
-            <a href="https://emily-obrien-dev-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer">
-              Live
-            </a>
-            <a href="https://github.com/EmilyO440/My-Portfolio" target="_blank" rel="noopener noreferrer">
-              Code
-            </a>
+            <a href="https://emily-obrien-dev-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a>
+            <a href="https://github.com/EmilyO440/My-Portfolio" target="_blank" rel="noopener noreferrer">Code</a>
           </div>
         </div>
-
         <div className="card">
           <h3>Quiet Observations</h3>
-          <p>
-            An immersive, narrative-driven web experience that blends creative writing
-            with visual storytelling, focusing on perception, stillness, and atmosphere.
-          </p>
+          <p>An immersive, narrative-driven web experience blending creative writing with visual storytelling.</p>
           <div className="project-links">
-            <a href="https://quiet-observations.netlify.app/" target="_blank" rel="noopener noreferrer">
-              Live
-            </a>
-            <a href="https://github.com/EmilyO440/Quiet-Observations" target="_blank" rel="noopener noreferrer">
-              Code
-            </a>
+            <a href="https://quiet-observations.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a>
+            <a href="https://github.com/EmilyO440/Quiet-Observations" target="_blank" rel="noopener noreferrer">Code</a>
           </div>
         </div>
-
         <div className="card">
           <h3>World Social</h3>
-          <p>
-            An interactive dashboard visualizing social media engagement trends
-            across platforms. Toggle between Instagram, TikTok, YouTube, and
-            LinkedIn to explore how different content formats perform in 2026.
-            Built with React, Vite, and Recharts.
-          </p>
+          <p>An interactive dashboard visualizing social media engagement trends across platforms. Built with React, Vite, and Recharts.</p>
           <div className="project-links">
-            <a href="https://world-social.netlify.app/" target="_blank" rel="noopener noreferrer">
-              Live
-            </a>
-            <a href="https://github.com/EmilyO440/world-social" target="_blank" rel="noopener noreferrer">
-              Code
-            </a>
+            <a href="https://world-social.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a>
+            <a href="https://github.com/EmilyO440/world-social" target="_blank" rel="noopener noreferrer">Code</a>
           </div>
         </div>
-
       </section>
 
       <section id="about" className="section">
         <h2>About Me</h2>
-
         <p>
-          I'm a remote operations and administrative professional with experience
-          supporting fast-paced legal, insurance, and tech environments. I thrive
-          when given responsibility and trusted to deliver without micromanagement.
+          I'm a genealogical researcher and remote operations professional with 5+ years
+          of experience tracing family histories across U.S. records — with a focus on
+          Mid-South and Southern states. I work with census records, vital records,
+          land and probate records, military records, and DNA analysis to help people
+          break through brick walls and connect with their past.
         </p>
-
         <p>
-          My background in client management, workflow coordination, and documentation
-          gives me a strong foundation for executive support. I'm organized, discreet,
-          and genuinely invested in making the people I support more effective.
+          I've conducted research for myself, family members, friends, and independent
+          clients — producing well-documented research logs, source citations, and
+          narrative reports aligned with genealogical proof standards. I'm proficient
+          in Ancestry.com, FamilySearch, Fold3, newspapers.com, and a wide range of
+          archival and digital record sources.
         </p>
-
         <p>
-          I also build web applications independently — including TaskFlow, a task
-          management app built to help people organize priorities and track progress.
-          That same instinct for structure and clarity drives everything I do.
+          Alongside my research background, I have experience in legal operations,
+          client management, and workflow coordination. I also build web applications
+          independently including TaskFlow and World Social.
         </p>
-
         <p>
-          I work best remotely, independently, and in environments where ownership
-          and reliability matter more than oversight.
+          I work best remotely, independently, and in environments where attention to
+          detail and reliable follow-through matter most.
         </p>
-
       </section>
 
       <section id="skills" className="section">
         <h2>Skills</h2>
-
         <div className="skills-grid">
           <div className="skill-box">
-            <h3>Administrative</h3>
-            <p>Calendar Management, Email Management, Scheduling, Research & Briefing</p>
+            <h3>Genealogical Research</h3>
+            <p>Ancestry.com, FamilySearch, Fold3, newspapers.com, Census & Vital Records, Land & Probate Records, Military Records</p>
           </div>
-
+          <div className="skill-box">
+            <h3>DNA Analysis</h3>
+            <p>AncestryDNA, 23andMe, MyHeritage — Cluster Analysis, Shared Match Methodology, Triangulation, Brick Wall Research</p>
+          </div>
+          <div className="skill-box">
+            <h3>Research Documentation</h3>
+            <p>Research Logs, Source Citations, Abstracts, Narrative Reports, Genealogical Proof Standards (GPS), Research Plans</p>
+          </div>
+          <div className="skill-box">
+            <h3>Administrative</h3>
+            <p>Calendar Management, Email Management, Scheduling, Client Communication, Expectation Setting</p>
+          </div>
           <div className="skill-box">
             <h3>Operations</h3>
-            <p>CRM Platforms, Document Management, Workflow Coordination, Compliance</p>
+            <p>CRM Platforms, Document Management, Workflow Coordination, Compliance, Project Management</p>
           </div>
-
-          <div className="skill-box">
-            <h3>Communication</h3>
-            <p>Client Relations, Written Communication, Discretion, Task Prioritization</p>
-          </div>
-
           <div className="skill-box">
             <h3>Technology</h3>
-            <p>AI Tools, Google Workspace, Microsoft Office, HTML, CSS, JavaScript</p>
+            <p>HTML, CSS, JavaScript, React, Vite, AI Tools, Google Workspace, Microsoft Office</p>
           </div>
-
           <div className="skill-box">
-            <h3>Strengths</h3>
-            <p>Organization, Problem Solving, Attention to Detail, Independent Work</p>
+            <h3>Communication</h3>
+            <p>Client Relations, Written Communication, Discretion, Task Prioritization, Conflict Resolution</p>
           </div>
-
           <div className="skill-box">
             <h3>Creative</h3>
             <p>Photography, Visual Thinking, Storytelling, Design Awareness</p>
@@ -187,61 +152,45 @@ function App() {
 
       <section id="experience" className="section">
         <h2>Experience</h2>
-
+        <div className="card">
+          <h3>Independent Genealogical Researcher</h3>
+          <p>2019 – Present</p>
+          <p>
+            Conducted in-depth genealogical research for personal clients, family members,
+            and independent projects with a focus on U.S. Mid-South and Southern states.
+            Utilized Ancestry.com, FamilySearch, census records, vital records, military
+            records, and DNA analysis to trace family lines and resolve complex research
+            problems. Produced detailed research logs, source citations, and narrative
+            reports for each project.
+          </p>
+        </div>
         <div className="card">
           <h3>AI Rater & Data Annotator — TELUS Digital</h3>
           <p>2026 – Present</p>
-          <p>
-            Assessing digital content and search results for quality, relevance, and
-            user value. Contributing to AI model training through clear content
-            evaluations and structured justifications.
-          </p>
+          <p>Assessing digital content and search results for quality, relevance, and user value. Contributing to AI model training through clear content evaluations and structured justifications.</p>
         </div>
-
         <div className="card">
           <h3>Client Services & Systems Coordinator — State Farm</h3>
           <p>2023 – 2025</p>
-          <p>
-            Managed 400+ client records within CRM platforms. Investigated and resolved
-            30–40 client inquiries weekly including billing discrepancies and policy
-            modifications, ensuring data consistency and streamlined operations.
-          </p>
+          <p>Managed 400+ client records within CRM platforms. Investigated and resolved 30–40 client inquiries weekly including billing discrepancies and policy modifications.</p>
         </div>
-
         <div className="card">
           <h3>Operations & Administrative Coordinator — Law Office of MJ Chernin</h3>
           <p>2021 – 2023</p>
-          <p>
-            Provided dedicated administrative support to a practicing attorney —
-            managing scheduling, case preparation, and research so the attorney
-            could focus entirely on their work. Maintained 100+ active legal files
-            with strict confidentiality and compliance standards.
-          </p>
+          <p>Provided dedicated administrative support to a practicing attorney — managing scheduling, case preparation, and research. Maintained 100+ active legal files with strict confidentiality standards.</p>
         </div>
-
         <div className="card">
           <h3>Web Development & Task Management Tools</h3>
-          <p>
-            Built TaskFlow, a responsive task management application with priority
-            levels, deadlines, and real-time tracking. Additional projects include
-            an interactive data dashboard and a narrative-driven storytelling site.
-          </p>
+          <p>Built TaskFlow, World Social, and other web applications independently using React, Vite, and JavaScript.</p>
         </div>
-
         <div className="card">
           <h3>Creative Work & Visual Storytelling</h3>
-          <p>
-            Background in photography and writing with a strong focus on observation,
-            composition, and capturing subtle details. This perspective directly
-            influences my approach to organization and communication.
-          </p>
+          <p>Background in photography and writing with a strong focus on observation, composition, and capturing subtle details.</p>
         </div>
-
       </section>
 
       <section id="creative" className="section">
         <h2>Photography</h2>
-
         <div className="gallery">
           <img src={amsterdamRoof} />
           <img src={motions} />
